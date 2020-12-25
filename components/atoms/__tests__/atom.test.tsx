@@ -1,6 +1,6 @@
 import React from 'react'
 import { render, cleanup } from '@testing-library/react'
-import { Atom } from '../Atom'
+import { Atom } from '@atoms'
 
 afterEach(cleanup)
 
