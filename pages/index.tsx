@@ -7,8 +7,10 @@ import { PageTemplate } from '../components/templates'
 const Home = () => {
 	return (
 		<Fragment>
-			<Head title={'Home'} />
-			<PageTemplate navigation={<NavigationBar />} footer={<Footer />}></PageTemplate>
+			<Head title={'Home'}>
+				<title>aaa</title>
+			</Head>
+			<PageTemplate navigation={<NavigationBar />} footer={<Footer />} />
 		</Fragment>
 	)
 }
