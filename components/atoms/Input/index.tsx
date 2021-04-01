@@ -72,3 +72,7 @@ TextInput.defaultProps = {
 	fontSize: 14,
 	width: '100%',
 }
+
+export class TextAreaProps {}
+
+export class TextArea {}

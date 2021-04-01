@@ -1,5 +1,5 @@
 import React from 'react'
-import { Story, Meta } from '@storybook/react'
+import { Meta, Story } from '@storybook/react'
 
 import { TextInput, TextInputProps } from '.'
 
@@ -11,6 +11,8 @@ export default {
 	},
 } as Meta
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 const Template: Story<TextInputProps> = (args) => <TextInput {...args} />
 
 export const Normal = Template.bind({})
